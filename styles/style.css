@@ -179,15 +179,15 @@ ol {
     outline: 1px solid #fff;
     outline-offset: 1px;
   }
-  
-  .button:active {
-    background: #545050;
-  }
+
   
   .button:hover {
     text-decoration: underline;
   }
-  
+  .button:active {
+    background: #545050;
+    text-decoration: none;
+  }
 
   .more-button {
     inline-size: 100%;
@@ -297,26 +297,21 @@ ol {
   object-fit: cover;
   object-position: center
 }
-
-
-
-
   .content__accent {
   color: #545050;
   }
 
-  
-  .content__card-link:active > .content__video-card,
-  .content__card-link_current > .content__video-card {
-    background-color: #545050;
-    text-decoration: none;
-  }
-  
-  
   .content__card-link:hover {
     text-decoration: underline;
   }
-  
+  .content__card-link:active {
+    text-decoration: none;
+  }
+  .content__card-link:active > .content__video-card,
+  .content__card-link_current > .content__video-card {
+    background-color: #545050;
+  }
+ 
   .content__card-link:focus {
     outline: none;
   }
