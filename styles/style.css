@@ -97,9 +97,7 @@ ol {
   white-space: nowrap;
 }
 
-fieldset {
-  border: none;
-}
+
 
 .search-form__label {
   display: flex;
